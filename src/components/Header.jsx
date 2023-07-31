@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { SlBasketLoaded, slAdd, SlLogout, SlHome,SlCreditCard,SlWallet } from "react-icons/sl";
-import { HiOutlineViewGridAdd,HiOutlineChevronDoubleRight,HiOutlineArrowCircleUp } from "react-icons/hi";
+import { SlBasketLoaded,  SlLogout, SlHome } from "react-icons/sl";
+import { HiOutlineViewGridAdd,HiOutlineChevronDoubleRight } from "react-icons/hi";
 
 import { motion } from "framer-motion";
 
@@ -115,13 +115,13 @@ const Header = () => {
                 exit={{ opacity: 0, scale: 0.6 }}
                 className="w-40 bg-gray-50 shadow-xl rounded-lg flex flex-col absolute top-12 right-0"
               >
-                {user && user.email === "balunayak735@gmail.com" && (
+                {user && user.email === "yarrabattisurekha3260@gmail.com" && (
                   <Link to="/createItem">
                     <p
                       className="px-4 flex py-2 item-center gap-3 cursor-pointer hover:bg-slate-120 transition-all duration-100 ease-in-out text-textColor text-base"
                       onClick={() => setIsMenu(false)}
                     >
-                   Add Transaction<slAdd />
+                   Add + <slAdd />
                     </p>
                   </Link>
                 )}

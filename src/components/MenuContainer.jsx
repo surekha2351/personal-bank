@@ -1,7 +1,11 @@
-import React, { useEffect, useState } from "react";
+import React, {useState } from "react";
 import { Link } from "react-router-dom";
 import { useStateValue } from "../context/StateProvider";
 import upi2 from "../img/upi2.jpeg"
+import overview from "../img/overview.jpg";
+
+
+
 const MenuContainer = ({ onUpiClick }) => {
   const [filter, setFilter] = useState("chicken");
 
@@ -38,6 +42,8 @@ const MenuContainer = ({ onUpiClick }) => {
             the giver.
           </p>
         </p>
+        <img src={overview} alt="overview" className="lg:w-250 mt-5 mb-5"/>
+
       </div>
       <p className="text-2xl font-semibold capitalize text-headingColor relative before:absolute before:rounded-lg before:content before:w-16 before:h-1 before:-bottom-2 before:left-0 before:bg-gradient-to-tr from-orange-400 to-orange-600 transition-all ease-in-out duration-100 mr-auto">
           UPI (<span className="text-orange-600 text-xl">Unified Payments Interface</span>)
