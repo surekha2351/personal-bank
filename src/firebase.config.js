@@ -3,13 +3,13 @@ import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCtoj84714j8qudtoXgUfqWfSvUJi69HHw",
-    authDomain: "bank1-788ea.firebaseapp.com",
-    databaseURL: "https://bank1-788ea-default-rtdb.firebaseio.com",
-    projectId: "bank1-788ea",
-    storageBucket: "bank1-788ea.appspot.com",
-    messagingSenderId: "388029149447",
-    appId: "1:388029149447:web:4bb7db6402fbe4e18e55a2" 
+  apiKey: "AIzaSyBmNDgGxzjoTvrT8-5r6T9Ze_wk25f3SQM",
+  authDomain: "personal-transaction-85543.firebaseapp.com",
+  databaseURL: "https://personal-transaction-85543-default-rtdb.firebaseio.com",
+  projectId: "personal-transaction-85543",
+  storageBucket: "personal-transaction-85543.appspot.com",
+  messagingSenderId: "157839141045",
+  appId: "1:157839141045:web:c4ee77d7f29e188c47b6fc"
 };
 
 const app = getApps.length > 0 ? getApp() : initializeApp(firebaseConfig);
